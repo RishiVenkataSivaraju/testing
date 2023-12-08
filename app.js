@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     res.render("app")
 })
 
-app.listen(80, () => {
+app.listen(22, () => {
     console.log("Serving on port 3000");
 })
 
