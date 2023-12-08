@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     res.render("app")
 })
 
-app.listen(443, () => {
+app.listen(3389, () => {
     console.log("Serving on port 443");
 })
 
